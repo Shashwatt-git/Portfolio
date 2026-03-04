@@ -1,3 +1,4 @@
+codex/initialize-project-structure-for-portfolio-site-idr9tw
 import DemoWidget from "@/components/DemoWidget";
 import HeroSection from "@/components/HeroSection";
 import ProjectCard, { type Project } from "@/components/ProjectCard";
@@ -43,4 +44,8 @@ export default function HomePage() {
       <Timeline />
     </main>
   );
+
+export default function HomePage() {
+  return <main />;
+  main
 }

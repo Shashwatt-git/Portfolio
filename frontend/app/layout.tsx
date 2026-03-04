@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+codex/initialize-project-structure-for-portfolio-site-idr9tw
 import { Inter, Syne } from "next/font/google";
 import CustomCursor from "@/components/CustomCursor";
 import Footer from "@/components/Footer";
@@ -24,6 +25,23 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Footer />
       </body>
+
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Portfolio",
+  description: "Personal portfolio"
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+ main
     </html>
   );
 }

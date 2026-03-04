@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+codex/initialize-project-structure-for-portfolio-site-idr9tw
     "./lib/**/*.{js,ts,jsx,tsx,mdx}",
     "./styles/**/*.{css}"
   ],
@@ -21,6 +22,12 @@ const config: Config = {
         body: ["var(--font-inter)", "sans-serif"]
       }
     }
+
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}"
+  ],
+  theme: {
+    extend: {}
+ main
   },
   plugins: []
 };
